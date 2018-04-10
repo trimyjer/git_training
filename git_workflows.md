@@ -50,7 +50,8 @@ Also note: `origin` and `upstream` are just common conventions but could actuall
 7. `git commit -m "message"`
 #### Collaborate (& listen)
 8. push commits to forked remote: `git push origin <branch_name>`
-9. File Pull Request (PR) on Github website. Note: this pull request will look a little different - the base will be central/master and the comparison branch will be your_username/new_branch
+9. File Pull Request (PR) on Github website. 
+Note: this pull request will look a little different than above - the base will be central/master and the comparison branch will be your_username/new_branch
 10. Request review on PR
 11. Have reviewer merge PR
 #### Synchronize Changes Locally
