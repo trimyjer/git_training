@@ -1,4 +1,4 @@
-### Basic Git Exercise
+### Basic Branching/Pull Request Exercise
 
 1. Clone this repo
 2. Make a few changes and commits on a new branch
