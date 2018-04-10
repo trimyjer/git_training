@@ -84,4 +84,4 @@ Note: Forking can also be used on smaller projects to prevent accidental commits
 - authors must merge their own code locally which does not encourage the code review process through PRs
 - many steps required for merging/pushing changes
 - harder to collaborate on code on the same branch
-
+- harder to incorporate continuous integration
