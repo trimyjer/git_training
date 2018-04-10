@@ -38,10 +38,9 @@ Note: Forking can also be used on smaller projects to prevent accidental commits
 2. clone fork `git clone <repo>` -- using link from fork
 #### Set references to remote git repos
 3. set remote for central repository: `git remote add upstream <repo>` -- using link from central repository
-4. view remotes: `git remote -v`. 
-Note: This command should show `origin` associated with the url for your fork and `upstream` associated with the url for the maintainer repository.
-
-Also note: `origin` and `upstream` are just common conventions but could actually be named anything 
+4. view remotes: `git remote -v`  
+   Note: This command should show `origin` associated with the url for your fork and `upstream` associated with the url for the maintainer repository.  
+   Also note: `origin` and `upstream` are just common conventions but could actually be named anything 
 #### Make changes and hack da mainframe
 3. `git checkout -b <branch_name>`
 4. Crush some code
@@ -50,8 +49,8 @@ Also note: `origin` and `upstream` are just common conventions but could actuall
 7. `git commit -m "message"`
 #### Collaborate (& listen)
 8. push commits to forked remote: `git push origin <branch_name>`
-9. File Pull Request (PR) on Github website. 
-Note: this pull request will look a little different than above - the base will be central/master and the comparison branch will be your_username/new_branch
+9. File Pull Request (PR) on Github website.  
+   Note: this pull request will look a little different than above - the base will be central/master and the comparison branch will be your_username/new_branch
 10. Request review on PR
 11. Have reviewer merge PR
 #### Synchronize Changes Locally
