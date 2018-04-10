@@ -15,10 +15,10 @@
 
 ### A few common, trickier git maneuvers
 Note: please work on a branch that is not `master`  
-Also note: this repository can be messed up, but still be careful using `force push`
+Also note: even though it's fine to mess up this repo, still be careful using `force push`
 
 1. Update a pull request based on reviewer's feedback (either real or imaginary)
-2. Pull existing branch from central repository, make changes, and push to remote fork 
+2. Pull pre-existing branch from a central repository, make changes, and push to remote fork 
 3. Squash two commits into a single commit and push changes to remote fork
 4. Amend a commit that's already been pushed to remote fork
 5. Remove a commit that's already been pushed to remote fork
