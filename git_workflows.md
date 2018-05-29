@@ -57,7 +57,7 @@ Note: Forking can similarly be used on smaller projects to prevent accidents fro
 13. `git pull upstream master`
 14. `git branch -d <new_branch>` -- delete `new_branch`
 
-## Current ERI Collaboration Workflow
+## OLD ERI Collaboration Workflow
 
 #### Download repo
 1. `git clone <repo>` -- using link from github.com
