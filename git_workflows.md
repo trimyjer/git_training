@@ -57,7 +57,7 @@ Note: Forking can similarly be used on smaller projects to prevent accidents fro
 13. `git pull upstream master`
 14. `git branch -d <new_branch>` -- delete `new_branch`
 
-## Current ERI Collaboration Workflow
+## OLD ERI Collaboration Workflow
 
 #### Download repo
 1. `git clone <repo>` -- using link from github.com
@@ -78,10 +78,10 @@ Note: Forking can similarly be used on smaller projects to prevent accidents fro
 14. `git merge dev` -- merge local `dev` into `master` (note: no merge commit created)
 15. `git push origin master`
 
-### Disadvantages of ERI workflow
-- harder to review other's code because there is no centralized location (such as a Pull Request) for discussion
-- authors must merge their own code locally which does not encourage code review process (compared to PRs which are typically merged by someone other than the author)
-- less clear (for git beginner) process used for merging/pushing changes
-- more communication required to collaborate on the same branch
-- harder to incorporate continuous integration (e.g., A tool like Jenkins might kick off continuous integration tests whenever a Pull Request is filed)
+### Advantages of forking/pull request workflow
+- Centralized location (Pull Request) for code discussion
+- Encourages code review process because PRs are typically merged by someone other than the author
+- Relatively (for git) clear process for merging branches
+- Low communication required to collaborate on the same branch
+- Easy to incorporate continuous integration (e.g., A tool like Jenkins will typically kick off continuous integration tests whenever a Pull Request is filed)
 
