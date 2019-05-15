@@ -8,3 +8,7 @@ line
 as 
 someone
 else's
+some
+cool
+local
+changes
